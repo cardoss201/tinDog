@@ -1,0 +1,190 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat-Bold, sans-serif';
+  font-weight: bold;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat-Black, sans-serif';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Title section */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Nav Bar */
+
+.bi {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.downloadBtn {
+  margin: 5% 3% 5% 0;
+}
+
+.titleImg {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  top: 8rem;
+  left: 5rem;
+}
+
+/* Features section */
+
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-element {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-description {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+  cursor: pointer;
+}
+
+/* testimonials section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonialsHeading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonialsImg {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.pressImg {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.pricingColumn {
+  padding: 3% 2%;
+}
+
+/* Call to action section */
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.ctaHeading {
+  color: white;
+  font-size: 3rem;
+}
+
+.ctaBtn {
+  margin: 2rem 2rem;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 3% 3%;
+}
+
+.footerSocialIcon {
+  color: black;
+  margin-left: 0.6rem;
+  text-decoration: none;
+}
+
+.footerSocialIcon:hover {
+  color: #ff4c68;
+}
+
+@media (max-width: 1028px) and (min-width: 300px) {
+  #title {
+    text-align: center;
+  }
+
+  .titleImg {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+
+  .ctaBtn {
+    margin: 0;
+  }
+}
